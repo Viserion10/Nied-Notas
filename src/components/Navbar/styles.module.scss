@@ -1,0 +1,130 @@
+/* Add a black background color to the top navigation */
+.nav {
+  background-color: rgb(12, 11, 11);
+  overflow: hidden;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+   justify-content: space-between;
+  //Tirar se quiser espaçar
+  /* padding: 0.5rem calc((100vw - 1000px) / 2); */
+  z-index: 10;
+
+  /* Style the links inside the navigation bar */
+  a {
+    float: left;
+    // color: #07ef06;
+    color: #ffc107;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  /* Change the color of links on hover */
+  a:hover {
+    box-shadow: 3px 3px 4px  #ffc107;
+    border-radius: 5px;
+
+  }
+
+  /* Add a color to the active/current link */
+  a.active {
+    font-size: 1.5rem;
+  }
+}
+
+
+.searchInput {
+  font-family: inherit;
+  width: 12rem;
+  height: 1.5rem;  border: 0;
+  border-bottom: 2px solid #ffc107;
+  outline: 0;
+  font-size: 1.0rem;
+  color: white;
+  padding: 7px 0;
+  background: rgb(15, 15, 15);
+  transition: border-color 0.2s;
+
+  &:hover,&:focus {
+    box-shadow: 4px 4px 4px  #ffc107;
+  }
+  &::placeholder {
+    color: #d8b242;
+  }
+
+  &:placeholder-shown ~ .searchInput {
+    font-size: 1.0rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+  .buttonSearch {
+
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.3em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: .6em 1.4em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    border-color: #ffc107;
+    color: #ffc107;
+    box-shadow: 0 0 40px 40px rgb(12, 11, 11) inset, 0 0 0 0 #ffc107;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+
+    &:hover, &:focus {
+      color: #ffc107;
+      outline: 0;
+      box-shadow: 0 0 10px 0 #ffc107 inset, 0 0 10px 4px #ffc107;
+    }
+  }
+  
+ 
+.secondContainer {
+  display: flex;
+  align-items: center;
+}
+
+
+.profile {
+  margin-right: 1rem;
+}
+
+.iconProfile {
+  width: 3.5vmin;
+  height: 3.5vmin;
+  color: #ffc107 ;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 #ffc107 inset, 0 0 10px 4px #ffc107;
+
+  }
+  
+}
+
+.linkProfile {
+  border-radius: 50% !important;
+}
+
