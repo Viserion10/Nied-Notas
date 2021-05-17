@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 import styles from "./styles.module.scss"
 
@@ -11,17 +12,32 @@ export function NavBar() {
         <div className={styles.nav}>
 
             <div>
-                <a className={styles.active} href="#home">Nied Notas</a>
-                <a href="#news">Home</a>
-                <a href="#notas">Notas</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
+                <Link href="/">
+                    <a className={styles.active}>Nied Notas</a>
+
+                </Link>
+                <Link href="/">
+                    <a>Home</a>
+
+                </Link>
+                <Link href="/about">
+
+                    <a>About</a>
+                </Link>
+                <Link href="/contact">
+
+                    <a>Contact</a>
+                </Link>
+                <Link href="/undefinied">
+                    <a>Undefinied</a>
+
+                </Link>
 
             </div>
-            <div  className={styles.secondContainer}>
-                <div>
-                        <input className={styles.searchInput} placeholder="Search" />
-                        <button className={styles.buttonSearch}>Search</button>
+            <div className={styles.secondContainer}>
+                <div className={styles.containerSearch}>
+                    <input className={styles.searchInput} placeholder="Search" />
+                    <button className={styles.buttonSearch}>Search</button>
                 </div>
 
                 <div className={styles.profile}>
@@ -34,3 +50,4 @@ export function NavBar() {
         </div>
     )
 }
+

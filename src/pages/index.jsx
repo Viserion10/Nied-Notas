@@ -1,21 +1,21 @@
-import { Footer } from '../components/Footer'
-import { NavBar } from '../components/Navbar'
 
-import styles from "./home.module.scss"
+
+
+import { NavBar } from '../components/Navbar'
+import { Footer } from '../components/Footer'
+
+
+
+import styles from './home.module.scss'
 
 export default function Home() {
   return (
-    <>
-      <NavBar />
-      <main className={styles.container}>
-        <div className={styles.experimental}>
+    <div className={styles.container}>
 
-          <h1>Welcome</h1>
-        </div>
+      <h1>HomeNotas</h1>
+    </div>
 
-      </main>
-      <Footer />
-    </>
+
   )
 
 }

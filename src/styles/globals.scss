@@ -21,6 +21,10 @@
 //     --purple-800: #6f48c9;
 // }
 
+main {
+    background: #ffc107;
+}
+
 @media (max-width: 1366px) {
     html {
         font-size: 80%;
@@ -40,6 +44,7 @@
 
 body {
     background: #f7f8fa;
+    
 }
 
 body,
