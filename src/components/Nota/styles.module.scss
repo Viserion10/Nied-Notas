@@ -1,0 +1,37 @@
+.nota {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+    width:13rem;
+    height:17rem;
+    background-color: black;
+    border-radius: 5px;
+    border: 3px solid black;
+
+    margin: 2rem 0 1rem 4.5rem;
+    max-width: border-box;
+
+    color: black;
+}
+
+.titleNota {
+    background-color: rgb(255, 28, 28);
+
+}
+
+.contentNota {
+    background-color: rgb(10, 134, 103);
+    height: 100%;
+}
+
+.dataNota {
+    background-color: rgb(75, 216, 10);
+    font-size: .7rem;
+
+    display: flex;
+    justify-content: space-around;
+
+
+}

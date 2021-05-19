@@ -6,15 +6,32 @@ import { Footer } from '../components/Footer'
 
 
 
-import styles from './home.module.scss'
+import styles from '../styles/home.module.scss'
+import { Nota } from '../components/Nota'
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
+  return (<>
+        <h1>HomeNotas</h1>
 
-      <h1>HomeNotas</h1>
+    <div className={styles.containerNotas}>
+
+    <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+    
     </div>
-
+    </>
 
   )
 
