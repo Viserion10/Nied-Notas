@@ -28,6 +28,16 @@ export default function Home() {
       <Nota/>
       <Nota/>
       <Nota/>
+      <Nota/>  <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>  <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
+      <Nota/>
       <Nota/>
     
     </div>
