@@ -11,7 +11,7 @@ export function NavBar() {
     return (
         <div className={styles.nav}>
 
-            <div>
+            <div className={styles.containerLinks}>
                 <Link href="/">
                     <a className={styles.active}>Nied Notas</a>
 

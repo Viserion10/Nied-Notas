@@ -1,5 +1,14 @@
+
 .containerNotas {
     display:flex;
     flex-wrap: wrap;
 justify-content:space-around;
+}
+
+.tittle{
+    // color: #07ef06;
+    text-align: center;
+    padding-top: 1.3rem;
+    text-decoration: none;
+    font-size: 2.25rem;
 }

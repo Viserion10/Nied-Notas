@@ -6,7 +6,7 @@ export function Nota() {
 
 
         <div >
-                        <div className={styles.gridItem} >9</div>   
+                        <div className={styles.cascaNota} >9</div>   
         </div>
 
         // <div className={styles.nota}>

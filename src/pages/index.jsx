@@ -11,34 +11,14 @@ import { Nota } from '../components/Nota'
 
 export default function Home() {
   return (<>
-        <h1>HomeNotas</h1>
+        <h1 className={styles.tittle}>HomeNotas</h1>
 
     <div className={styles.containerNotas}>
 
     <Nota/>
+    
       <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>  <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>  <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
-      <Nota/>
+     
     
     </div>
     </>

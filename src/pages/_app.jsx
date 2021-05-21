@@ -8,13 +8,13 @@ import { Main } from '../components/Main'
 function MyApp({ Component, pageProps }) {
   return (
 
-    <>
+    <div>
       <NavBar />
       <Main>
         <Component {...pageProps} />
       </Main>
       <Footer />
-    </>
+    </div>
 
 
   )
