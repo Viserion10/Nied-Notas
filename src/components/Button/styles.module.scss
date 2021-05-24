@@ -1,0 +1,41 @@
+.fab{
+    position: fixed;
+    right:10px;
+    
+  }
+  
+  .fab button{
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+
+    
+      
+   
+  }
+  
+  .fab button.main{
+    color: black;
+    position: absolute;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 3rem;
+    background-color: #ffc107;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    
+    &:hover {
+      width: 4rem;
+      height: 4rem;     
+    }
+  }
+
+  .icon {
+      font-size:2rem;
+  }
+  
+ 
