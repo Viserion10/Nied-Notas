@@ -1,59 +1,79 @@
 .modalOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1040;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #ffd968;
+  height: 70vh;
+  width: 60vw;
+
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media screen and (max-width: 600px) {
+    width: 90vw;
   }
+}
 
-  
-  .modal {
-    background: #ffd968;
-    border-radius: 3px;
-    height: 70vh;
-    width: 40vw;
-    padding: 8px;
-    border-radius: 4px;
-    display: flex;
+.modalHeader {
+  height: 3.5rem;  
+  background-color: #574101;
+  color: #ffc107;
+  padding-top: 0.2rem;
+  padding-bottom: 0.5rem;
+
+  border-radius: 4px;
+
+}
+
+.modalContent {
+  height: 3rem;
+}
+
+.modalFooter {
+  height: 3rem;
+  background-color: #574101;
+
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxCategoria {
+  height: 3rem;
+  width: 3rem;
+  background-color: yellow;
+
+  margin-left: 2rem;
+}
+
+.containerButtons {
+  height: 3rem;
+  width: 35%;
+
+  margin-right: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    height: 70%;
+    width: 5rem;
 
   }
-
-
-  .modalHeader {
-    height: 3rem;
-    background-color: black;
-  }
-
-  .modalContent {
-    height: 3rem;
-
-  }
-
-  .modalFooter {
-    height: 3rem;
-
-    background-color: green;
-
-  }
-
-  .boxCategoria {
-    height: 3rem;
-
-    background-color: yellow;
-
-  }
-
-  .containerButtons{
-    height: 3rem;
-
-    background-color: red;
-
-  }
-  
- 
+}
