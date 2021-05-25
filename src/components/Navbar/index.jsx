@@ -21,7 +21,7 @@ export function NavBar() {
     return (
         <div className={styles.nav}>
 
-        {responseNav ? (
+        {/* {responseNav ? (
             <div className={`${styles.containerLinks} ${styles.responsive}`} >
             <Link href="/">
                 <a className={styles.active}>Nied Notas</a>
@@ -40,7 +40,7 @@ export function NavBar() {
                 <a>Undefinied</a>
             </Link>
         </div>
-        ): (
+        ): ( */}
             <div className={`${styles.containerLinks}`} >
                 <Link href="/">
                     <a className={styles.active}>Nied Notas</a>
@@ -59,7 +59,7 @@ export function NavBar() {
                     <a>Undefinied</a>
                 </Link>
             </div>
-        )}
+        {/* // )} */}
             
 
 
