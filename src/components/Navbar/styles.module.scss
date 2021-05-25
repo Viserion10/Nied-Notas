@@ -91,11 +91,11 @@
     align-items: center;
   }
 
-  .containerLinks {
+  .containerLinks.responsive {
    
 
     /* Style the links inside the navigation bar */
-    a:focus {
+    a {
       display:block;
       height: 100%;
     }
