@@ -3,6 +3,7 @@ import styles from '../styles/home.module.scss'
 import { Button } from '../components/Button'
 import { Nota } from '../components/Nota'
 import { Modal } from '../components/Modal'
+import {SearchModal} from '../components/Search'
 
 export default function Home() {
   return (<>
@@ -11,7 +12,13 @@ export default function Home() {
 
 
     <div className={styles.containerNotas}>
-      <Modal/>
+      {/* <Modal/> */}
+
+
+      {/* <SearchModal /> */}
+
+
+
       <Nota />
       <Nota />
       <Nota />
